@@ -10,6 +10,8 @@
     "format": "prettier --write ./src"
   },
   "dependencies": {
+    "@raphiniert/ra-data-postgrest": "^2.0.0-alpha.3",
+    "@supabase/supabase-js": "^2.38.4",
     "ra-data-fakerest": "^4.14.0",
     "ra-supabase": "^2.0.4",
     "ra-supabase-core": "^2.0.4",
