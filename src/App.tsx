@@ -16,7 +16,7 @@ export const App = () => (
     dashboard={Dashboard}
   >
     <Resource
-      name="users"
+      name="comments"
       list={UserList}
       recordRepresentation="name"
       show={ShowGuesser}

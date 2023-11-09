@@ -2527,6 +2527,27 @@ ra-supabase-core@^2.0.4:
   resolved "https://registry.yarnpkg.com/ra-supabase-core/-/ra-supabase-core-2.0.4.tgz#3d2c01adda9f079ebe5b51b07030908145e6526c"
   integrity sha512-uP/ZchtAb50ZXXauHHg4ZA4ax2DJHexMF67hhP1ONM5k1cRcMgYOp42XXHbk32DH1YHEiyIEXIvD6qOl7PkUDw==
 
+ra-supabase-language-english@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/ra-supabase-language-english/-/ra-supabase-language-english-2.0.4.tgz#60f22e2c8ff30f7ec43107d0fb9357562dee890a"
+  integrity sha512-BmNq3eKULYF5X4GEeysbyAbL/mw0bJkqY1nWi0sUhy+lf69GEav7xWs1jTlEcIidaUoWj8d6wYx8gL/JRZ5FaQ==
+
+ra-supabase-ui-materialui@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/ra-supabase-ui-materialui/-/ra-supabase-ui-materialui-2.0.4.tgz#5e6461ec68fbd2fe08f0c8767a38a968f99cdba2"
+  integrity sha512-qy8ZNRJhEIa7JGDVD5T0JKkQSGGayek/JPM/tcBM3xX+KHpFE3n3jkI7XYkJc7FuJyI8lezFp8VUaZnXuXQh/g==
+  dependencies:
+    ra-supabase-core "^2.0.4"
+
+ra-supabase@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/ra-supabase/-/ra-supabase-2.0.4.tgz#47873e24a942f49d41afa08a9f827961c1019d68"
+  integrity sha512-6mldmUN4b1wzAT/yAT+SoMbUlmme7UatyGGYkuXx5YOL2fepDqhvPKcwwU5wamd1/d4wPZZJyfE0GJl3LjJrGw==
+  dependencies:
+    ra-supabase-core "^2.0.4"
+    ra-supabase-language-english "^2.0.4"
+    ra-supabase-ui-materialui "^2.0.4"
+
 ra-ui-materialui@^4.15.3:
   version "4.15.3"
   resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.15.3.tgz#2bbe684b669cf0fcb09b09f5f5dc58a5b1ff90c5"

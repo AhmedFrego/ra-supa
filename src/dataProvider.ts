@@ -1,4 +1,4 @@
-import { supabaseDataProvider } from "ra-supabase-core";
+import { supabaseDataProvider } from "ra-supabase";
 import { supabase as supabaseClient } from "./supabase";
 
 export const dataProvider = supabaseDataProvider({
