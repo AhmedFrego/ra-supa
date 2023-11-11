@@ -1,5 +1,27 @@
-import { supabaseDataProvider } from "ra-supabase";
+import postgrestRestProvider, {
+  defaultPrimaryKeys,
+  defaultSchema,
+} from "@raphiniert/ra-data-postgrest";
+import { SupabaseClient } from "@supabase/supabase-js";
+import { supabaseHttpClient } from "ra-supabase-core";
+import { DataProvider } from "react-admin";
 import { supabase as supabaseClient } from "./supabase";
+
+export const supabaseDataProvider = (config: {
+  instanceUrl: string;
+  apiKey: string;
+  supabaseClient: SupabaseClient;
+}): DataProvider => {
+  const { instanceUrl, apiKey, supabaseClient } = config;
+
+  return postgrestRestProvider({
+    apiUrl: `${instanceUrl}/rest/v1`,
+    httpClient: supabaseHttpClient({ apiKey, supabaseClient }),
+    defaultListOp: "eq",
+    primaryKeys: defaultPrimaryKeys,
+    schema: defaultSchema,
+  });
+};
 
 export const dataProvider = supabaseDataProvider({
   instanceUrl: "https://kbwpzwcnmhspryvhsjwi.supabase.co",

@@ -664,10 +664,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
-"@raphiniert/ra-data-postgrest@^2.0.0-alpha.3":
-  version "2.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@raphiniert/ra-data-postgrest/-/ra-data-postgrest-2.0.0-alpha.3.tgz#d23fa957d4f52b43bddc02a0a6ece4b87a7d5142"
-  integrity sha512-VIfnwe/Gf9bX+/k1jw3VxNJ1oXbjkojlCoAepLI/NQG0MWpMrsgR4mNeh87OdUPLRk9oc4rALHboE+cYLaNvMg==
+"@raphiniert/ra-data-postgrest@^2.0.0-alpha.4":
+  version "2.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@raphiniert/ra-data-postgrest/-/ra-data-postgrest-2.0.0-alpha.4.tgz#938f7b7edd211e1d9f568cc1094e00ced078b33e"
+  integrity sha512-C5iMeVdsvAd7fPFariplFP6wallWCm90Xlz+iii5tN5tALYrJVL9rXCbPpwS0pm7irmNxsBdkQxlyBKOH6j80Q==
   dependencies:
     qs "^6.11.1"
 

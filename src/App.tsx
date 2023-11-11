@@ -8,12 +8,14 @@ import { UserList } from "./Users";
 import PostIcon from "@mui/icons-material/Book";
 import UserIcon from "@mui/icons-material/Group";
 import { Dashboard } from "./Dashboard";
+import { LoginPage } from "ra-supabase";
 
 export const App = () => (
   <Admin
     dataProvider={dataProvider}
     authProvider={authProvider}
     dashboard={Dashboard}
+    loginPage={LoginPage}
   >
     <Resource
       name="comments"
